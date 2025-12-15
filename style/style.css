@@ -1,0 +1,154 @@
+.h1,h2,h3,h4,h5,h6,p,a,span,ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+:root {
+  --primary-blue: #01208E;
+  --secondary-orange: #FE7400;
+  --light-orange: #FD8D2f;
+  --primary-gray: #717070;
+  --primary-white: #FFFFFF;
+
+  --primary-font: "Rubik", sans-serif;
+  --heading-font: "Yeseva One", serif;
+  --robboto-font: "Roboto", sans-serif;
+  --popoppins-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+h1,h2,h3,h4,h5,h6,a {
+  font-family: var(--heading-font);
+  
+}
+
+/* Banner section css start */
+  #banner {
+    background: url('/Asset/Banner-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 450px;
+  }
+
+  #banner h1{
+    margin-top: 400px;
+    font-size: 36px;
+    font-weight: 600;
+    color: purple;
+    
+  }
+   #banner p{
+    font-size: 16px;
+    font-weight: 400;
+   color: #FE7400;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  #btn-1 {
+  background: linear-gradient(90deg, #FF8117, #FFB06D);
+}
+  #btn-2 {
+  background: linear-gradient(90deg, #FF8117, #FFB06D);
+}
+  #btn-3 {
+  background: linear-gradient(90deg, #FF8117, #FFB06D);
+}
+
+
+  #btn-1:hover {
+  background: linear-gradient(270deg, #FF8117, #FFB06D);
+  color: white;
+}
+  #btn-2:hover {
+  background: linear-gradient(270deg, #FF8117, #FFB06D);
+  color: white;
+}
+  #btn-3:hover {
+  background: linear-gradient(270deg, #FF8117, #FFB06D);
+  color: white;
+}
+/* Banner section css end */
+
+/* Documents part start  */
+
+#documents h1 {
+   margin-top: 400px;
+    font-size: 36px;
+    font-weight: 600;
+    color: purple;
+}
+.documents-part h5{
+  margin-top: 400px;
+    font-size: 20px;
+    font-weight: 300;
+    color:  rgb(47, 30, 199);
+}
+.documents-part{
+  border: 1px solid gray;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  gap: 20px;
+  border-radius: 5px;
+  text-box: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+.documents-part img{
+  width: 100px;
+  height: 100px;
+}
+.documents-part a {
+  width: 40px;
+  height: 40px;
+}
+/* Documents part end */
+
+/* Interviews parts css start */
+
+.interviews-main-par{
+  /* padding: 10px 10px 0px; */
+ border: 1px solid gray;
+
+}
+
+.text-content{
+  margin: -1px;
+   border-style: solid;
+   width: 560px;
+  border-width: 0 1px 1px 1px;
+  border-color: gray;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 0 0.3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Interviews parts css end */
+
+/* Gallary section css start */
+#gallary{
+
+}
+
+#gallary h1{ 
+    margin-top: 400px;
+    font-size: 36px;
+    font-weight: 600;
+    color: purple;
+}
+/* Gallary section css end */
