@@ -1,4 +1,13 @@
-.h1,h2,h3,h4,h5,h6,p,a,span,ul,
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+ul,
 li {
   margin: 0;
   padding: 0;
@@ -30,76 +39,90 @@ body {
   font-family: var(--primary-font);
 }
 
-h1,h2,h3,h4,h5,h6,a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
   font-family: var(--heading-font);
-  
+
 }
 
 /* Banner section css start */
-  #banner {
-    background: url('/Asset/Banner-image.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 450px;
-  }
-
-  #banner h1{
-    margin-top: 400px;
-    font-size: 36px;
-    font-weight: 600;
-    color: purple;
-    
-  }
-   #banner p{
-    font-size: 16px;
-    font-weight: 400;
-   color: #FE7400;
-    margin-top: 40px;
-    margin-bottom: 30px;
-  }
-
-  #btn-1 {
-  background: linear-gradient(90deg, #FF8117, #FFB06D);
+#banner {
+  background: url('/Asset/Banner-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
 }
-  #btn-2 {
-  background: linear-gradient(90deg, #FF8117, #FFB06D);
+
+#banner h1 {
+  margin-top: 400px;
+  font-size: 36px;
+  font-weight: 600;
+  color: purple;
+
 }
-  #btn-3 {
+
+#banner p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FE7400;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#btn-1 {
   background: linear-gradient(90deg, #FF8117, #FFB06D);
 }
 
+#btn-2 {
+  background: linear-gradient(90deg, #FF8117, #FFB06D);
+}
 
-  #btn-1:hover {
+#btn-3 {
+  background: linear-gradient(90deg, #FF8117, #FFB06D);
+}
+
+
+#btn-1:hover {
   background: linear-gradient(270deg, #FF8117, #FFB06D);
   color: white;
 }
-  #btn-2:hover {
+
+#btn-2:hover {
   background: linear-gradient(270deg, #FF8117, #FFB06D);
   color: white;
 }
-  #btn-3:hover {
+
+#btn-3:hover {
   background: linear-gradient(270deg, #FF8117, #FFB06D);
   color: white;
 }
+
 /* Banner section css end */
 
 /* Documents part start  */
 
 #documents h1 {
-   margin-top: 400px;
-    font-size: 36px;
-    font-weight: 600;
-    color: purple;
-}
-.documents-part h5{
   margin-top: 400px;
-    font-size: 20px;
-    font-weight: 300;
-    color:  rgb(47, 30, 199);
+  font-size: 36px;
+  font-weight: 600;
+  color: purple;
 }
-.documents-part{
+
+.documents-part h5 {
+  margin-top: 400px;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(47, 30, 199);
+}
+
+.documents-part {
   border: 1px solid gray;
   padding: 20px 20px;
   margin-top: 20px;
@@ -108,28 +131,31 @@ h1,h2,h3,h4,h5,h6,a {
   border-radius: 5px;
   text-box: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }
-.documents-part img{
+
+.documents-part img {
   width: 100px;
   height: 100px;
 }
+
 .documents-part a {
   width: 40px;
   height: 40px;
 }
+
 /* Documents part end */
 
 /* Interviews parts css start */
 
-.interviews-main-par{
+.interviews-main-par {
   /* padding: 10px 10px 0px; */
- border: 1px solid gray;
+  border: 1px solid gray;
 
 }
 
-.text-content{
+.text-content {
   margin: -1px;
-   border-style: solid;
-   width: 560px;
+  border-style: solid;
+  width: 560px;
   border-width: 0 1px 1px 1px;
   border-color: gray;
   padding: 20px;
@@ -141,14 +167,19 @@ h1,h2,h3,h4,h5,h6,a {
 /* Interviews parts css end */
 
 /* Gallary section css start */
-#gallary{
+#gallary {}
 
+#gallary h1 {
+  margin-top: 400px;
+  font-size: 36px;
+  font-weight: 600;
+  color: purple;
 }
 
-#gallary h1{ 
-    margin-top: 400px;
-    font-size: 36px;
-    font-weight: 600;
-    color: purple;
+.vbox-content img {
+  max-width: 100% !important;
+  max-height: 80vh !important;
+  object-fit: contain;
 }
+
 /* Gallary section css end */
